@@ -1,5 +1,6 @@
 import Home from './home';
 import About from './about';
+import User from './user';
 const NotFound = () => {
   return (
     <Route render={({ staticContext }) => {
@@ -22,6 +23,10 @@ const routes = [
   {
     path: '/about',
     component: About
+  },
+  {
+    path: '/user',
+    component: User
   },
   {
     path: '*',

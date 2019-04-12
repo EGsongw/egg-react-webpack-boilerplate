@@ -12,3 +12,4 @@ exports.webpackreact = {
   enable: true,
   package: 'egg-webpack-react'
 };
+

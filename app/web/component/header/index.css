@@ -2,7 +2,7 @@
 @import "../../asset/css/global.css";
 .header {
   height: 80px;
-  background-color: #20a0ff;
+  background-color: #004646;
   color: #fff;
   width: 100%;
   line-height: 80px;
@@ -24,7 +24,7 @@
   box-sizing: border-box;
   width: 1140px;
   padding: 0 30px;
-  margin: 0 auto;
+  margin:inherit;
 }
 
 .header h1 {
